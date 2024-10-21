@@ -15,7 +15,7 @@ var dbconfig = {
         }
     },
     production: {
-        server: 'localhost',
+        server: 'host.docker.internal',
         database:'team1_web_labDB',
         user:'sa',
         password:'P@ssw0rd',
